@@ -20,7 +20,7 @@ class Kuis extends BaseController
 
 ```
 
-#basic penggunaan
+# basic penggunaan
 mendapatkan semua data table
 
 ```
