@@ -22,7 +22,7 @@ class Kuis extends BaseController
 ```
 
 # Basic Penggunaan
-mendapatkan semua data table
+mendapatkan semua data table dengan memanggil table seperti dibawah dan panggil function getResult() yang nantinya akan mereturn nilai berupa array object
 
 ```
 
@@ -61,7 +61,7 @@ public function index(){
 pengkondition dibuat dengan menggunakan array multidimention dengan keys sebagai rowname dari table dan value sebagai nilai dari rowname !
 
 # mendapatkan single data
-untuk mendapatkan singgle data anda dapt menggunakan function row seperti dibawah dan menambahkan condition sesuai dengan kebutuhan
+untuk mendapatkan singgle data anda dapt menggunakan function row() seperti dibawah dan menambahkan condition sesuai dengan kebutuhan, output dari function row() berupa object
 
 ```
 
