@@ -38,7 +38,7 @@ public function index(){
 
 ```
 
-# Condition
+# Pengkondisian ( condition )
 menambahkan kondisi pada table
 
 ```
