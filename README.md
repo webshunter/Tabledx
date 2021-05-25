@@ -37,3 +37,37 @@ public function index(){
 }
 
 ```
+
+# Condition
+menambahkan kondisi pada table
+1. cara 1
+
+```
+
+public function index(){
+
+  $tbl = new Tabledx;
+  
+  $tbl->tabel('nama_table');
+  
+  $tbl->getResult();
+
+}
+
+```
+
+2. cara 2
+
+```
+
+public function index(){
+
+  $tbl = new Tabledx;
+  
+  $tbl->tabel('nama_table');
+  
+  $tbl->getResult();
+
+}
+
+```
