@@ -2,8 +2,8 @@
 Tabledx adalah class untuk mempermudah dalam pengelolaan database dan pembuatan datatable
 penggunaan di codeigniter 4
 
-1. letakkan Tabledx pada folder modal
-2. panggil Tabledx pada controller dimana Tabledx akan digunakan
+1. Letakkan Tabledx pada folder modal
+2. Panggil Tabledx pada controller dimana Tabledx akan digunakan
 
 ```
 <?php
@@ -20,7 +20,7 @@ class Kuis extends BaseController
 
 ```
 
-# basic penggunaan
+# Basic Penggunaan
 mendapatkan semua data table
 
 ```
