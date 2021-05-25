@@ -40,7 +40,6 @@ public function index(){
 
 # Condition
 menambahkan kondisi pada table
-1. cara 1
 
 ```
 
@@ -50,24 +49,13 @@ public function index(){
   
   $tbl->tabel('nama_table');
   
-  $tbl->getResult();
-
-}
-
-```
-
-2. cara 2
-
-```
-
-public function index(){
-
-  $tbl = new Tabledx;
-  
-  $tbl->tabel('nama_table');
+  $tbl->condition([
+    "id" => 2
+  ])
   
   $tbl->getResult();
 
 }
 
 ```
+pengkondition dibuat dengan menggunakan array multidimention dengan keys sebagai rowname dari table dan value sebagai nilai dari rowname !
