@@ -297,7 +297,7 @@ class Tabledx extends Model{
 			$gambar = $this->row();
             $gambar = (object) $gambar;
 		}
-        dd
+        
         $nms = $data;
 		$data = $_FILES[$data];
 		$ext = pathinfo($data['name'], PATHINFO_EXTENSION);
