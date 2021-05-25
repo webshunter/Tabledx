@@ -71,6 +71,10 @@ public function index(){
   
   $tbl->tabel('nama_table');
   
+  $tbl->condition([
+    "id" => 2
+  ])
+  
   $tbl->row();
 
 }
