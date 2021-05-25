@@ -25,7 +25,7 @@ mendapatkan semua data table
 
 ```
 
-puclic function index(){
+public function index(){
 
   $tbl = new Tabledx;
   
