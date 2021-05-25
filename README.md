@@ -59,3 +59,20 @@ public function index(){
 
 ```
 pengkondition dibuat dengan menggunakan array multidimention dengan keys sebagai rowname dari table dan value sebagai nilai dari rowname !
+
+# mendapatkan single data
+untuk mendapatkan singgle data anda dapt menggunakan function row seperti dibawah dan menambahkan condition sesuai dengan kebutuhan
+
+```
+
+public function index(){
+
+  $tbl = new Tabledx;
+  
+  $tbl->tabel('nama_table');
+  
+  $tbl->row();
+
+}
+
+```
