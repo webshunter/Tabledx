@@ -83,3 +83,8 @@ public function index(){
 
 # Lef Join
 untuk melakukan left join anda harus menambahkan table terlebih dahulu
+```
+$rl->addTable("users", "user_id");
+$rl->addTable("soal", "soal_id");
+$rl->addTable("pilihan", "pilihan_id");
+```
