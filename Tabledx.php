@@ -341,11 +341,15 @@ class Tabledx extends Model{
         foreach($this->allTable as $key => $val){
             $setone = NULL;
             if (isset($this->primarytable[$key])) {
-                $setone = $this->primarytable[$key].".".$this->joinparams[$key];
+                $setone = $this->primarytable[$key].".".$val;
             }else{
                 $setone = $this->tb.".".$this->joinparams[$key];
             }
-            $settwo = $key.".".$val;
+            if (isset($this->primarytable[$key])) {
+                $settwo = $key.".".$this->joinparams[$key];
+            }else{
+                $settwo = $key.".".$val;
+            }
             $this->leftjoin .= " \n LEFT JOIN $key ON $setone = $settwo \n ";
         }
     }
