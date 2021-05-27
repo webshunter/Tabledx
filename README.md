@@ -80,3 +80,6 @@ public function index(){
 }
 
 ```
+
+# Lef Join
+untuk melakukan left join anda harus menambahkan table terlebih dahulu
